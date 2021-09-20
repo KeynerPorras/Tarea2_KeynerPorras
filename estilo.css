@@ -1,0 +1,62 @@
+header{
+    background-color: teal;
+}
+/*lo que este dentro del cuerpo-h1 se centra*/
+header h1{
+    text-align: center;
+}
+/*lo que este dentro del cuerpo-p se centra*/
+header p{
+  
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica;
+    background: url(https://image.freepik.com/vector-gratis/fondo-ondas-electrocardiograma_1017-8766.jpg) ;/*<a href="https://www.freepik.es/vectores/fondo">Vector de Fondo creado por starline - www.freepik.es</a>*/
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+/*Estilo a la clase tabla*/
+.tabla{
+    background-color:white;
+    text-align:center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*Cuando se pasa encima de la tabla cambia color- de la clase tabla*/
+.tabla:hover{
+ background:darkgrey;
+}
+/*Se quito el sub-rayado del hipervinculo*/
+a{
+    text-decoration: none;
+    
+}
+/*Cuando se pasa encima del link se sub-raya*/
+a:hover{
+    
+    text-decoration-line: underline;
+}
+footer{
+    background-color:teal;
+    font-style: italic;
+  
+}
+ol{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica;
+    font-style: oblique;
+   
+}
+
+
+
